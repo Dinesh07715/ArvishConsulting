@@ -30,7 +30,7 @@ const Navbar = () => {
       { name: 'DevOps', link: '/solutions/devops' }
     ],
     'Insights': [
-      { name: 'FINT - Techtalk - Blog', link: '/insights/blog' }
+      { name: 'Arvish Consulting - Techtalk - Blog', link: '/insights/blog' }
     ],
     'Careers': [
       { name: 'What We Offer', link: '/careers/what-we-offer' },
@@ -58,20 +58,13 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link to="/" className="flex items-center gap-3 group">
-              {/* FINT Logo SVG */}
-              <svg width="50" height="50" viewBox="0 0 50 50" className="transition-transform group-hover:scale-105">
-                <g transform="translate(25, 25)">
-                  {/* Outer Star Pattern */}
-                  <path d="M0,-20 L2,-6 L8,-8 L4,-3 L12,-2 L5,2 L8,8 L2,5 L0,12 L-2,5 L-8,8 L-5,2 L-12,-2 L-4,-3 L-8,-8 L-2,-6 Z" 
-                        fill="#3b5998" className="transition-colors group-hover:fill-blue-700"/>
-                  {/* Inner Star Pattern */}
-                  <path d="M0,-12 L1.5,-4 L6,-6 L3,-2 L9,-1 L4,1 L6,6 L1.5,3.5 L0,9 L-1.5,3.5 L-6,6 L-4,1 L-9,-1 L-3,-2 L-6,-6 L-1.5,-4 Z" 
-                        fill="#e74c3c" className="transition-colors group-hover:fill-red-700"/>
-                  {/* Center Diamond */}
-                  <path d="M0,-4 L4,0 L0,4 L-4,0 Z" fill="#3b5998"/>
-                </g>
-              </svg>
-              <span className="text-3xl font-bold text-[#1e2875] tracking-tight">FINT</span>
+              {/* Arvish Consulting Logo Image */}
+              <img
+                src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=50&h=50&fit=crop&crop=center"
+                alt="Arvish Consulting Logo"
+                className="w-12 h-12 rounded-full transition-transform group-hover:scale-105"
+              />
+              <span className="text-3xl font-bold text-[#1e2875] tracking-tight">Arvish Consulting</span>
             </Link>
           </div>
 
