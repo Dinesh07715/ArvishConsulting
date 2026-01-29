@@ -4,6 +4,8 @@ import { useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Blog from './components/Blog';
+import BlogDetail from './pages/BlogDetail';
+
 
 // Import all pages
 import {
@@ -102,6 +104,11 @@ function App() {
             
             {/* Contact */}
             <Route path="/contact" element={<Contact />} />
+
+            {/* Insights Routes */}
+<Route path="/insights/blog" element={<BlogPage />} />
+<Route path="/insights/blog/:id" element={<BlogDetail />} />
+
           </Routes>
         </main>
         
